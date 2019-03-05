@@ -1,0 +1,16 @@
+<p>Antarmuka pemrograman aplikasi (API) yang (masih) sangat sederhana ini dibuat untuk memungkinkan para pengembang memanfaatkan data yang disediakan oleh Kateglo. Untuk tahap awal, baru modul kamus yang dapat diakses dengan API ini.</p>
+        <p>Gunakan format</p>
+        <blockquote>http://kateglo.com/api.php?format=[xml|json]&phrase=[lema_yang_dicari].</blockquote></p>
+        <p>Contoh:</p>
+        <blockquote><a href="api.php?format=xml&phrase=kata">http://kateglo.com/api.php?format=xml&phrase=kata</a><br /><a href="api.php?format=json&phrase=bahtera">http://kateglo.com/api.php?format=json&phrase=bahtera</a></blockquote>
+        <p>Silakan pelajari sendiri dulu keluaran XML atau JSON yang dihasilkan karena dokumentasi masih belum sempat dibuat.</p>
+        <p>API ini disediakan dengan apa adanya, dan ada kemungkinan akan berubah format.</p><script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-48896425-1', 'kateglo.com');
+	  ga('send', 'pageview');
+
+	</script>
